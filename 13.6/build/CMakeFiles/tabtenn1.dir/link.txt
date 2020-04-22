@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtabtenn1.a  CMakeFiles/tabtenn1.dir/tabtenn1.cpp.o
+/usr/bin/ranlib libtabtenn1.a

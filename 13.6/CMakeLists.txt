@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+project(recipe01 LANGUAGES CXX)
+add_library(tabtenn1 STATIC tabtenn1.h tabtenn1.cpp)
+add_executable(usett1 usett1.cpp)
+target_link_libraries(usett1 tabtenn1)

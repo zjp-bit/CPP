@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+project(recipe01 LANGUAGES CXX)
+add_library(brass STATIC brass.h brass.cpp)
+add_executable(usebrass1 usebrass1.cpp)
+target_link_libraries(usebrass1 brass)

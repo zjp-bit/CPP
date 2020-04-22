@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbrass.a  CMakeFiles/brass.dir/brass.cpp.o
+/usr/bin/ranlib libbrass.a
