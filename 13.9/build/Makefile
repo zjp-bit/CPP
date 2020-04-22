@@ -124,6 +124,19 @@ brass/fast:
 .PHONY : brass/fast
 
 #=============================================================================
+# Target rules for targets named usebrass2
+
+# Build rule for target.
+usebrass2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usebrass2
+.PHONY : usebrass2
+
+# fast build rule for target.
+usebrass2/fast:
+	$(MAKE) -f CMakeFiles/usebrass2.dir/build.make CMakeFiles/usebrass2.dir/build
+.PHONY : usebrass2/fast
+
+#=============================================================================
 # Target rules for targets named usebrass1
 
 # Build rule for target.
@@ -190,6 +203,33 @@ usebrass1.cpp.s:
 	$(MAKE) -f CMakeFiles/usebrass1.dir/build.make CMakeFiles/usebrass1.dir/usebrass1.cpp.s
 .PHONY : usebrass1.cpp.s
 
+usebrass2.o: usebrass2.cpp.o
+
+.PHONY : usebrass2.o
+
+# target to build an object file
+usebrass2.cpp.o:
+	$(MAKE) -f CMakeFiles/usebrass2.dir/build.make CMakeFiles/usebrass2.dir/usebrass2.cpp.o
+.PHONY : usebrass2.cpp.o
+
+usebrass2.i: usebrass2.cpp.i
+
+.PHONY : usebrass2.i
+
+# target to preprocess a source file
+usebrass2.cpp.i:
+	$(MAKE) -f CMakeFiles/usebrass2.dir/build.make CMakeFiles/usebrass2.dir/usebrass2.cpp.i
+.PHONY : usebrass2.cpp.i
+
+usebrass2.s: usebrass2.cpp.s
+
+.PHONY : usebrass2.s
+
+# target to generate assembly for a file
+usebrass2.cpp.s:
+	$(MAKE) -f CMakeFiles/usebrass2.dir/build.make CMakeFiles/usebrass2.dir/usebrass2.cpp.s
+.PHONY : usebrass2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -199,6 +239,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... brass"
+	@echo "... usebrass2"
 	@echo "... usebrass1"
 	@echo "... brass.o"
 	@echo "... brass.i"
@@ -206,6 +247,9 @@ help:
 	@echo "... usebrass1.o"
 	@echo "... usebrass1.i"
 	@echo "... usebrass1.s"
+	@echo "... usebrass2.o"
+	@echo "... usebrass2.i"
+	@echo "... usebrass2.s"
 .PHONY : help
 
 

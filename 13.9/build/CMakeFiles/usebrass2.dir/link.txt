@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/usebrass2.dir/usebrass2.cpp.o  -o usebrass2 libbrass.a 
