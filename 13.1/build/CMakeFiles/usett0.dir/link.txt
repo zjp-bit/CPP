@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/usett0.dir/usett0.cpp.o  -o usett0 libtabtenn0.a 
