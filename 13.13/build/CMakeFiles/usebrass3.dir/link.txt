@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/usebrass3.dir/usebrass3.cpp.o  -o usebrass3 libacctabc.a 
