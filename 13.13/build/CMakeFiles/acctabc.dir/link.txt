@@ -1,0 +1,2 @@
+/usr/bin/ar qc libacctabc.a  CMakeFiles/acctabc.dir/acctabc.cpp.o
+/usr/bin/ranlib libacctabc.a

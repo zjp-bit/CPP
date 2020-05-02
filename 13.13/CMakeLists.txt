@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+project(recipe1.0 LANGUAGES CXX)
+add_library(acctabc STATIC acctabc.h acctabc.cpp)
+add_executable(usebrass3 usebrass3.cpp)
+target_link_libraries(usebrass3 acctabc)

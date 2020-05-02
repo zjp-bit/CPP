@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zjp/code/cpp/13.13/acctabc.cpp
+iostream
+-
+acctabc.h
+/home/zjp/code/cpp/13.13/acctabc.h
+
+/home/zjp/code/cpp/13.13/acctabc.h
+iostream
+-
+string
+-
+
