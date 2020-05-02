@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+project(recipe1.0 LANGUAGES CXX)
+add_library(student STATIC studentc.h student.cpp)
+add_executable(use_stuc use_stuc.cpp)
+target_link_libraries(use_stuc student)
