@@ -23,6 +23,8 @@ int main()
      map2 = map;
      cout<<"Result of hasDMA assignment: \n";
      cout<<map2<<endl;
+
+     cin.get();
      return 0;
 }
 

@@ -1,4 +1,4 @@
-/home/zjp/code/cpp/13.16/build/CMakeFiles/rebuild_cache.dir
-/home/zjp/code/cpp/13.16/build/CMakeFiles/edit_cache.dir
-/home/zjp/code/cpp/13.16/build/CMakeFiles/dma.dir
-/home/zjp/code/cpp/13.16/build/CMakeFiles/usedma.dir
+E:/cpp/13.16/build/CMakeFiles/dma.dir
+E:/cpp/13.16/build/CMakeFiles/usedma.dir
+E:/cpp/13.16/build/CMakeFiles/ALL_BUILD.dir
+E:/cpp/13.16/build/CMakeFiles/ZERO_CHECK.dir
