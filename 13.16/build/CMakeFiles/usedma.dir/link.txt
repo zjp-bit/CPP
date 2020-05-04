@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/usedma.dir/usedma.cpp.o  -o usedma libdma.a 

@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+project(recipe01 LANGUAGES CXX)
+
+if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
+    message(STATUS "Configuring on/for Linux")
+elseif(CMAKE_SYSTEM_NAME STREQUAL "Windows")
+    message(STATUS "Configuring  on /for windows")
+elseif(CMAKE_SYSTEM_NAME STREQUAL "AIX")
+   message(STATUS "Configuring on/for IBM AIX")
+else()
+   message(STATUS "Configuring on/for ${CMAKE_SYSTEM_NAME}")
+endif()
+
+add_library(dma STATIC dma.cpp dma.h)
+add_executable(usedma usedma.cpp)
+target_link_libraries(usedma dma)
