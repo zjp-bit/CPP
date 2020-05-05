@@ -1,0 +1,10 @@
+^E:\CPP\14.3\BUILD\CMAKEFILES\C63E6B0F149B09BE1AA7595DFF01B2FD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/cpp/14.3 -BE:/cpp/14.3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/cpp/14.3/build/recipe1.0.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
