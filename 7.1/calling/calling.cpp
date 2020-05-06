@@ -8,10 +8,12 @@ int main()
 {
     using namespace std;
     cout << "main() will call the simple() function:\n";
+    cout << "主函数将要调用simple（）的子函数:\n";
     simple();  //function call
     cout << "main() is finished with the simple() function.\n";
+    cout << "主函数已经完成对simple() 的调用.\n";
     return 0;
-
+   cin.get();
     //std::cout << "Hello World!\n";
 }
 
@@ -19,12 +21,13 @@ void simple()
 {
     using namespace std;
     cout << "I'm but a simple function.\n";
+    cout << "我仅仅是个子函数而已.\n";
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
 // 调试程序: F5 或调试 >“开始调试”菜单
 
-// 入门使用技巧: 
+// 入门使用技巧:
 //   1. 使用解决方案资源管理器窗口添加/管理文件
 //   2. 使用团队资源管理器窗口连接到源代码管理
 //   3. 使用输出窗口查看生成输出和其他消息
