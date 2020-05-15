@@ -5,13 +5,17 @@
 #include <iostream>
 #include <string>
 #include <valarray>
+//valarray类，是一种用于处理数值的类，例如将数组中所有元素的值求和，找最大最小值等操作
 
 class Student
 {
     private:
+    //typedef 简化表达
     typedef std::valarray <double> ArrayDb;
     std::string name;
+    
     ArrayDb scores;
+    
     //private method for scores output
     std::ostream & arr_out(std::ostream & os)const;
 

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/protos.dir/protos.cpp.o  -o protos 

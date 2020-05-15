@@ -1,0 +1,3 @@
+/home/zjp/code/cpp/7.4/lotto/build/CMakeFiles/rebuild_cache.dir
+/home/zjp/code/cpp/7.4/lotto/build/CMakeFiles/lotto.dir
+/home/zjp/code/cpp/7.4/lotto/build/CMakeFiles/edit_cache.dir
