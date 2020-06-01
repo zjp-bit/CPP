@@ -97,39 +97,39 @@ clean: CMakeFiles/student.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/use_stuc.dir
+# Target rules for target CMakeFiles/use_stuc_linux.dir
 
 # All Build rule for target.
-CMakeFiles/use_stuc.dir/all: CMakeFiles/student.dir/all
-	$(MAKE) -f CMakeFiles/use_stuc.dir/build.make CMakeFiles/use_stuc.dir/depend
-	$(MAKE) -f CMakeFiles/use_stuc.dir/build.make CMakeFiles/use_stuc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zjp/code/cpp/14.3/build/CMakeFiles --progress-num=3,4 "Built target use_stuc"
-.PHONY : CMakeFiles/use_stuc.dir/all
+CMakeFiles/use_stuc_linux.dir/all: CMakeFiles/student.dir/all
+	$(MAKE) -f CMakeFiles/use_stuc_linux.dir/build.make CMakeFiles/use_stuc_linux.dir/depend
+	$(MAKE) -f CMakeFiles/use_stuc_linux.dir/build.make CMakeFiles/use_stuc_linux.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zjp/code/cpp/14.3/build/CMakeFiles --progress-num=3,4 "Built target use_stuc_linux"
+.PHONY : CMakeFiles/use_stuc_linux.dir/all
 
 # Include target in all.
-all: CMakeFiles/use_stuc.dir/all
+all: CMakeFiles/use_stuc_linux.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/use_stuc.dir/rule: cmake_check_build_system
+CMakeFiles/use_stuc_linux.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjp/code/cpp/14.3/build/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/use_stuc.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/use_stuc_linux.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjp/code/cpp/14.3/build/CMakeFiles 0
-.PHONY : CMakeFiles/use_stuc.dir/rule
+.PHONY : CMakeFiles/use_stuc_linux.dir/rule
 
 # Convenience name for target.
-use_stuc: CMakeFiles/use_stuc.dir/rule
+use_stuc_linux: CMakeFiles/use_stuc_linux.dir/rule
 
-.PHONY : use_stuc
-
-# clean rule for target.
-CMakeFiles/use_stuc.dir/clean:
-	$(MAKE) -f CMakeFiles/use_stuc.dir/build.make CMakeFiles/use_stuc.dir/clean
-.PHONY : CMakeFiles/use_stuc.dir/clean
+.PHONY : use_stuc_linux
 
 # clean rule for target.
-clean: CMakeFiles/use_stuc.dir/clean
+CMakeFiles/use_stuc_linux.dir/clean:
+	$(MAKE) -f CMakeFiles/use_stuc_linux.dir/build.make CMakeFiles/use_stuc_linux.dir/clean
+.PHONY : CMakeFiles/use_stuc_linux.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/use_stuc_linux.dir/clean
 
 .PHONY : clean
 

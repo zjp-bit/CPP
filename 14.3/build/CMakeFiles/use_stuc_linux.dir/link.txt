@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/use_stuc_linux.dir/use_stuc.cpp.o  -o use_stuc_linux libstudent.a 

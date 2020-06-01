@@ -124,17 +124,17 @@ student/fast:
 .PHONY : student/fast
 
 #=============================================================================
-# Target rules for targets named use_stuc
+# Target rules for targets named use_stuc_linux
 
 # Build rule for target.
-use_stuc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 use_stuc
-.PHONY : use_stuc
+use_stuc_linux: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 use_stuc_linux
+.PHONY : use_stuc_linux
 
 # fast build rule for target.
-use_stuc/fast:
-	$(MAKE) -f CMakeFiles/use_stuc.dir/build.make CMakeFiles/use_stuc.dir/build
-.PHONY : use_stuc/fast
+use_stuc_linux/fast:
+	$(MAKE) -f CMakeFiles/use_stuc_linux.dir/build.make CMakeFiles/use_stuc_linux.dir/build
+.PHONY : use_stuc_linux/fast
 
 student.o: student.cpp.o
 
@@ -169,7 +169,7 @@ use_stuc.o: use_stuc.cpp.o
 
 # target to build an object file
 use_stuc.cpp.o:
-	$(MAKE) -f CMakeFiles/use_stuc.dir/build.make CMakeFiles/use_stuc.dir/use_stuc.cpp.o
+	$(MAKE) -f CMakeFiles/use_stuc_linux.dir/build.make CMakeFiles/use_stuc_linux.dir/use_stuc.cpp.o
 .PHONY : use_stuc.cpp.o
 
 use_stuc.i: use_stuc.cpp.i
@@ -178,7 +178,7 @@ use_stuc.i: use_stuc.cpp.i
 
 # target to preprocess a source file
 use_stuc.cpp.i:
-	$(MAKE) -f CMakeFiles/use_stuc.dir/build.make CMakeFiles/use_stuc.dir/use_stuc.cpp.i
+	$(MAKE) -f CMakeFiles/use_stuc_linux.dir/build.make CMakeFiles/use_stuc_linux.dir/use_stuc.cpp.i
 .PHONY : use_stuc.cpp.i
 
 use_stuc.s: use_stuc.cpp.s
@@ -187,7 +187,7 @@ use_stuc.s: use_stuc.cpp.s
 
 # target to generate assembly for a file
 use_stuc.cpp.s:
-	$(MAKE) -f CMakeFiles/use_stuc.dir/build.make CMakeFiles/use_stuc.dir/use_stuc.cpp.s
+	$(MAKE) -f CMakeFiles/use_stuc_linux.dir/build.make CMakeFiles/use_stuc_linux.dir/use_stuc.cpp.s
 .PHONY : use_stuc.cpp.s
 
 # Help Target
@@ -199,7 +199,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... student"
-	@echo "... use_stuc"
+	@echo "... use_stuc_linux"
 	@echo "... student.o"
 	@echo "... student.i"
 	@echo "... student.s"
