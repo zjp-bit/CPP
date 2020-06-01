@@ -2,6 +2,9 @@
 //compile with studentc.cpp
 #include<iostream>
 #include"studentc.h"
+#include<math.h>
+
+
 using std::cin;
 using std::cout;
 using std::endl;
@@ -25,6 +28,10 @@ for (i=0;i<pupils;++i)
     cout<<"average: "<<ada[i].Average()<<endl;
 }
 cout<<"Done.\n";
+double x,r;
+cout<<"input a number\n";
+cin>>x;
+cout<<sin(x)<<endl;
 return 0;
 
 }
