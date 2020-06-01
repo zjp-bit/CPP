@@ -35,4 +35,7 @@ target_link_libraries(use_stuc_other student)
 endif()
 #检测操作系统结束
 
+#if的简洁表达
+
+
 
